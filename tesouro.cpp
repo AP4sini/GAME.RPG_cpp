@@ -17,8 +17,21 @@ void Tesouro::setValor(int novoValor){
     valor=novoValor;
 }
 
+string Tesouro::getNome(){
+    return nome;
+}
 
-/*int valor;
+int Tesouro::getValor(){
+    return valor;
+}
+
+void Tesouro::imprimeInfo(){
+    cout << nome << "nome: / valor: " << valor << endl;
+}
+
+/*
+int valor;
 cin >> valor;
 cin.ignore(); // limpa o \n que ficou
-getline(cin, nome);*/
+getline(cin, nome);
+*/

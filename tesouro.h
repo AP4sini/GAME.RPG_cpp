@@ -12,8 +12,10 @@ class Tesouro{
         void setNome(string);
         void setValor(int);
 
-        char* getNome();
+        string getNome();
         int getValor();
+
+        void imprimeInfo();
 
     private:
         string nome;
