@@ -1,3 +1,6 @@
+#ifndef TESOURO_H //usando ifndef pois meu compilador nao aceita o pragma onde (sla o pq)
+#define TESOURO_H
+
 #include <string>
 #include <iostream>
 
@@ -21,3 +24,5 @@ class Tesouro{
         string nome;
         int valor;
 };
+
+#endif
