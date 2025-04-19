@@ -1,6 +1,6 @@
-#include <string>;
-#include <iostream>;
-#include "tipoItem.h";
+#include <string>
+#include <iostream>
+#include "tipoItem.h"
 
 using namespace std;
 
