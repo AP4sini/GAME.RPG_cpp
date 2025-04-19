@@ -13,7 +13,7 @@ class Monstro: public Personagem{
         bool getnovaDerrota();
 
         void setnovaVitoria(bool);
-        void setnovaDerrots(bool);
+        void setnovaDerrota(bool);
 
     private:
         bool vitoria;

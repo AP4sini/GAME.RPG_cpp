@@ -7,15 +7,15 @@ class Tesouro{
 
     public:
         Tesouro();
-        Tesouro(char* novoNome, int novoValor);
+        Tesouro(string novoNome, int novoValor);
 
-        void setNome(char*);
+        void setNome(string);
         void setValor(int);
 
         char* getNome();
         int getValor();
 
     private:
-        char* nome;
+        string nome;
         int valor;
 };

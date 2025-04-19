@@ -8,9 +8,9 @@ class Item{
 
     public: 
         Item();
-        Item(char* novoNome, tipoItem novoTipo, bool combate, int FA, int dano);
+        Item(string novoNome, tipoItem novoTipo, bool combate, int FA, int dano);
 
-        void setNome(char*);
+        void setNome(string);
         void setTipo(tipoItem);
         void setCombate(bool);
         void setFA(int);
@@ -23,7 +23,7 @@ class Item{
         int getDani();
 
     private:
-        char* nome;
+        string nome;
         tipoItem item;
         bool combate;
         int FA;

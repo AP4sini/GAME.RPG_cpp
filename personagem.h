@@ -8,9 +8,9 @@ using namespace std;
 class Personagem{
     public:
         Personagem();
-        Personagem(char* novoNome, int novaHabilidade, int novaEnergia, int novaSorte, int novoItem, tipoItem nomeItem, int novoTesouro, int novaProvisao);
+        Personagem(string novoNome, int novaHabilidade, int novaEnergia, int novaSorte, int novoItem, tipoItem nomeItem, int novoTesouro, int novaProvisao);
 
-        char* getnovoNome();
+        string getnovoNome();
         int getnovaHabilidade();
         int getnovaEnergia();
         int getnovaSorte();
@@ -20,7 +20,7 @@ class Personagem{
         Tesouro* getTesouro(int index);
         int getnovaProvisao();
 
-        void setnovoNome(char* novoNome);
+        void setnovoNome(string novoNome);
         void setnovaHabilidade(int novaHabilidade);
         void setnovaEnergia(int novaEnergia);
         void setnovaSorte(int novaSorte);
@@ -39,7 +39,7 @@ class Personagem{
         void imprimirInventario(); //mostrar inventario
 
     private:
-        char* nome;
+        string nome;
         int habilidade;
         int energia;
         int sorte;
